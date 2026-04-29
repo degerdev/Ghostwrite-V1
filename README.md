@@ -1,16 +1,42 @@
-# React + Vite
+GhostWriter is a professional, minimalist desktop writing application designed for focus and productivity. It features a sleek "elite" dark interface and integrates a local AI assistant to help developers and writers generate content seamlessly.
+🤖 Local AI Power
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Unlike standard editors, GhostWriter features a built-in AI assistant powered by Ollama:
 
-Currently, two official plugins are available:
+    Model: Integrated with deepseek-coder:6.7b for high-quality code generation and text assistance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+    Privacy: All AI processing is done locally on your machine—no data ever leaves your device.
 
-## React Compiler
+    Stream Response: Responses are rendered in real-time, providing a fast and fluid interactive experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Key Features
 
-## Expanding the ESLint configuration
+    Minimalist UI: A distraction-free, "elite" dark theme designed to reduce eye strain and keep you focused.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Markdown Rendering: Full support for Markdown, including professional syntax highlighting for code blocks.
+
+    Dynamic Editor: A smart, auto-expanding writing area that adapts to your input length.
+
+    Desktop Native: Built with Electron to provide a stable and performant desktop experience.
+
+🛠️ Tech Stack
+
+    Framework: React
+
+    Build Tool: Vite
+
+    Desktop Runtime: Electron
+
+    Styling: Custom CSS with a focus on minimalist and professional aesthetics
+
+    AI Engine: Ollama (DeepSeek Coder)
+
+📦 Getting Started
+
+    Ensure Ollama is installed and running locally with the deepseek-coder:6.7b model.
+
+    Clone this repository.
+
+    Run npm install to set up dependencies.
+
+    Launch the app in development mode with npm run dev.
